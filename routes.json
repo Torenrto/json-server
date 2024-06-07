@@ -1,0 +1,5 @@
+{
+    "/login": "/users",
+    "/logout": "/users",
+    "/profile": "/users/1"
+  }  
