@@ -7,5 +7,40 @@
       "username": "test",
       "city": "Free City"
     }
+  ],
+  "contractTypes": [
+    {
+      "id": 1,
+      "name": "Service Agreement",
+      "description": "An agreement between a service provider and a client.",
+      "sampleFile": "service_agreement_template.pdf",
+      "signingSteps": [
+        {
+          "signOrder": "1",
+          "operator": "Alice",
+          "action": "signer",
+          "notes": "Initial signing by the service provider."
+        },
+        {
+          "signOrder": "2",
+          "operator": "Bob",
+          "action": "approver",
+          "notes": "Approval by the client's manager."
+        },
+        {
+          "signOrder": "3",
+          "operator": "Charlie",
+          "action": "signer",
+          "notes": "Final signing by the client."
+        },
+        {
+          "signOrder": "4",
+          "operator": "David",
+          "action": "approver",
+          "notes": "Review and archive by the legal team."
+        }
+      ]
+    }
   ]
+
 }
